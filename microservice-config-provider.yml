@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microservice-provider-dev
+    name: microservice-provider
 ---
 server:
   port: 8011
