@@ -1,0 +1,18 @@
+spring:
+     profiles:
+       active:
+         - dev
+---
+server:
+  port: 8001
+spring:
+  profiles: dev
+  application:
+    name: microservice-provider-dev
+---
+server:
+  port: 8011
+spring:
+  profiles: test
+  application:
+    name: microservice-provider-test
